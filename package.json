@@ -1,0 +1,12 @@
+{
+  "name": "yantu-checkin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "考研打卡小站：每天三句名人名言、打卡记录、时间扇形图",
+  "scripts": {
+    "build": "node scripts/build-quotes.mjs",
+    "test": "node tests/dom-smoke.mjs",
+    "serve": "python tools/serve.py"
+  },
+  "license": "MIT"
+}
